@@ -5,6 +5,6 @@ Scripts
 pyvenv.cfg
 
 DATA/unused
-*.xlsx
+.xlsx
 DOCS/Análise Exploratória - MODELO.docx
 DOCS/resumo.txt

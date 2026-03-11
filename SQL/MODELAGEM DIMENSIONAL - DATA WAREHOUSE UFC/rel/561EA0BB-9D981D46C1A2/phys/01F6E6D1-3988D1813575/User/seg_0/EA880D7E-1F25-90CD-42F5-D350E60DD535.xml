@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="SCH_UFC_001" directorySegmentName="seg_0" id="EA880D7E-1F25-90CD-42F5-D350E60DD535">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:58:11 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<identifier>1505371E9559E7C34954D3D78B8294B779CD08115AFE1D104EE82386B2EA92F0E5</identifier>
+</UserOraclev10g>

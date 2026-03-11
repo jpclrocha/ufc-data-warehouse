@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="DIM_LUTA" directorySegmentName="seg_0" id="481FC173-D64B-4EDB-AD83-E8D69223A22D">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:57:39 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<schemaObject>746137AE-BCE4-01CD-95D2-BF08DA50181F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<user>EA880D7E-1F25-90CD-42F5-D350E60DD535</user>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<storeAs>CLOB</storeAs>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SK_LUTA" id="44860D47-087B-E8C2-AB23-DB1BBE9C5C93">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:57:39 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NM_LUTA" id="6D345949-57A9-D30C-090D-1A3472EF7381">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:57:39 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CAT_PESO" id="79EF3DE0-8703-D945-0071-459249FD2122">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:57:39 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_DIM_LUTA" id="E55D8D6F-68A2-F7F5-E11D-FE756823AA36">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:57:39 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

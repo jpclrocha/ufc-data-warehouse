@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="452BF08A-252A-BCC2-CCB1-45FC0559828C" schemaObject="746137AE-BCE4-01CD-95D2-BF08DA50181F" name="DIM_LUTADOR">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 22:43:12 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_LUTADOR" id="6A4C93B0-D865-12EF-E6AA-56A5EE90907E">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 22:43:55 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_PK_DIM_LUTADOR</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_PK_DIM_LUTADOR</autoIncrementTriggerName>
+</Column>
+<Column name="NM_LUTADOR" id="5CA4FF40-136F-9EA3-CA24-2DD3B62AC528">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 22:44:13 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REACH_LUTADOR" id="D63B096C-8109-1CEF-0485-12D262C70BA3">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 22:44:43 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F74B2ABE-C346-1784-D16D-FC972B0E4FC0" name="PK_DIM_LUTADOR">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 22:45:27 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A4C93B0-D865-12EF-E6AA-56A5EE90907E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

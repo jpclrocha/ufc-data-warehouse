@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5A6576C6-99A4-6EA2-4B26-7AB3CF5AF779" containerWithKeyObject="C9B7F974-3ADA-641D-E31B-50AAD82BAF0D" localFKIndex="D03F0A7D-C620-ABC3-0C6F-60D03AD457E8" name="FK_DIM_LUTA_FATO_ROUND_LUTA">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:08:50 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<referredTableLongName>SCH_UFC_001.DIM_LUTA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>481FC173-D64B-4EDB-AD83-E8D69223A22D</referredTableID>
+<keyObject>E55D8D6F-68A2-F7F5-E11D-FE756823AA36</keyObject>
+<referredKeyID>E55D8D6F-68A2-F7F5-E11D-FE756823AA36</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SK_LUTA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

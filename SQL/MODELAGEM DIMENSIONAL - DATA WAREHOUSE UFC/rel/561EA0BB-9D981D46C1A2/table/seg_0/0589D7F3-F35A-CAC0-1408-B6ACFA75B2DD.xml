@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0589D7F3-F35A-CAC0-1408-B6ACFA75B2DD" schemaObject="746137AE-BCE4-01CD-95D2-BF08DA50181F" name="DIM_EVENTO">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 22:46:21 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_EVENTO" id="83C94B54-C813-6C7B-E4F4-F899527BC011">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 22:46:34 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_PK_DIM_EVENTO</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_PK_DIM_EVENTO</autoIncrementTriggerName>
+</Column>
+<Column name="NM_EVENTO" id="2722FFE3-D7D5-C008-82D2-B7791F5FE9EB">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 22:46:41 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_EVENTO" id="B881D2FC-70C6-ABBD-7332-A8BFD312D65D">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 22:46:47 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_PK_DIM_EVENTO</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_PK_DIM_EVENTO</autoIncrementTriggerName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B2B5366F-7CFB-7A0D-49D3-B52F709F7E54" name="PK_DIM_EVENTO">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 22:49:30 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83C94B54-C813-6C7B-E4F4-F899527BC011"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

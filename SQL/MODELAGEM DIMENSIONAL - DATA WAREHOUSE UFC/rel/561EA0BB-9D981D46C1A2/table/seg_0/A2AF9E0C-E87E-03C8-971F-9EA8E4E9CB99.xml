@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2AF9E0C-E87E-03C8-971F-9EA8E4E9CB99" schemaObject="746137AE-BCE4-01CD-95D2-BF08DA50181F" name="DIM_METODO">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 22:51:21 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_METODO" id="509EF10E-21E8-249B-7620-49BE58884D20">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 22:52:00 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_PK_DIM_METODO</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_PK_DIM_METODO</autoIncrementTriggerName>
+</Column>
+<Column name="NM_METODO" id="2F29101A-CBEE-09A7-94E4-A21070724858">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 22:52:27 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="62C1E590-0C34-5FEB-BD02-E28B745A5844" name="PK_DIM_METODO">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 22:52:00 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="509EF10E-21E8-249B-7620-49BE58884D20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

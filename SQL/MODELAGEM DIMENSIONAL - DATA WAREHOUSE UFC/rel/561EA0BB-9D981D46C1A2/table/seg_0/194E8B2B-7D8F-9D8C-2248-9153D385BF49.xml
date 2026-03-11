@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="194E8B2B-7D8F-9D8C-2248-9153D385BF49" schemaObject="746137AE-BCE4-01CD-95D2-BF08DA50181F" name="FATO_RESULTADO_LUTA">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:13:07 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_LUTADOR" id="BD929862-EF21-7917-A7E8-95BFB1D5BEB0">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:13:29 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC60E2E1-1A57-5F08-D3A2-C28D0D5964EE" referredColumn="6A4C93B0-D865-12EF-E6AA-56A5EE90907E"/>
+</associations>
+</Column>
+<Column name="SK_LUTA" id="D0EC65D8-6A0B-89CF-495C-166A8E88AF0E">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:13:32 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D2A61098-AB28-6B60-14D7-30F0E7BFD303" referredColumn="44860D47-087B-E8C2-AB23-DB1BBE9C5C93"/>
+</associations>
+</Column>
+<Column name="SK_EVENTO" id="3370B291-B1E8-B559-03D3-579E2C8AD08D">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:13:38 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="830A8811-5F36-7DCD-5558-E02036A5A1FB" referredColumn="83C94B54-C813-6C7B-E4F4-F899527BC011"/>
+</associations>
+</Column>
+<Column name="SK_METODO" id="1BD1F509-2374-1E94-C504-C48C32CBDCF2">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:13:45 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42895DA2-77C3-B8B1-D491-F1E74F310687" referredColumn="509EF10E-21E8-249B-7620-49BE58884D20"/>
+</associations>
+</Column>
+<Column name="FL_VENCEDOR" id="75E410C6-5756-E05D-C37D-FB221CDE0C2B">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:14:12 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C13C78D2-4847-EC8E-BDC4-A4C7841E6045" name="PK_FATO_RESULTADO_LUTA">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:14:38 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD929862-EF21-7917-A7E8-95BFB1D5BEB0"/>
+<colUsage columnID="D0EC65D8-6A0B-89CF-495C-166A8E88AF0E"/>
+<colUsage columnID="3370B291-B1E8-B559-03D3-579E2C8AD08D"/>
+<colUsage columnID="1BD1F509-2374-1E94-C504-C48C32CBDCF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E99B7C5-EB6D-71CB-C531-F76E5B9730A4" name="FK_DIM_EVENTO_FATO_RESULTADO_LUTA">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:14:46 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3370B291-B1E8-B559-03D3-579E2C8AD08D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1E333ED-0679-6B6C-3A39-7967D87D3D51" name="FK_DIM_LUTA_FATO_RESULTADO_LUTA">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:14:52 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0EC65D8-6A0B-89CF-495C-166A8E88AF0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9487E3F9-0AA4-E5D3-8792-C2F0CE9F7AA9" name="FK_DIM_LUTADOR_FATO_RESULTADO_LUTA">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:14:59 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD929862-EF21-7917-A7E8-95BFB1D5BEB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC6B8D8E-D5C0-E5CC-6085-C56CA9B53F71" name="FK_DIM_METODO_FATO_RESULTADO_LUTA">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:15:04 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BD1F509-2374-1E94-C504-C48C32CBDCF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

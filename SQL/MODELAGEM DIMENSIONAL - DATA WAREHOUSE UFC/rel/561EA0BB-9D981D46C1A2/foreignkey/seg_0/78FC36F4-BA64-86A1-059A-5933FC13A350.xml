@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="78FC36F4-BA64-86A1-059A-5933FC13A350" containerWithKeyObject="C9B7F974-3ADA-641D-E31B-50AAD82BAF0D" localFKIndex="C45A926E-097C-1030-3190-6185B460A023" name="FK_DIM_LUTADOR_FATO_ROUND_LUTA">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:09:32 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<referredTableLongName>SCH_UFC_001.DIM_LUTADOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>452BF08A-252A-BCC2-CCB1-45FC0559828C</referredTableID>
+<keyObject>F74B2ABE-C346-1784-D16D-FC972B0E4FC0</keyObject>
+<referredKeyID>F74B2ABE-C346-1784-D16D-FC972B0E4FC0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SK_LUTADOR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

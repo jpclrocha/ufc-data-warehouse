@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="FATO_RESULTADO_LUTA" directorySegmentName="seg_0" id="194E8B2B-7D8F-9D8C-2248-9153D385BF49">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:57:39 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<schemaObject>746137AE-BCE4-01CD-95D2-BF08DA50181F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<user>EA880D7E-1F25-90CD-42F5-D350E60DD535</user>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<storeAs>CLOB</storeAs>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SK_METODO" id="1BD1F509-2374-1E94-C504-C48C32CBDCF2">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:57:39 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SK_EVENTO" id="3370B291-B1E8-B559-03D3-579E2C8AD08D">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:57:39 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FL_VENCEDOR" id="75E410C6-5756-E05D-C37D-FB221CDE0C2B">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:57:39 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SK_LUTADOR" id="BD929862-EF21-7917-A7E8-95BFB1D5BEB0">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:57:39 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SK_LUTA" id="D0EC65D8-6A0B-89CF-495C-166A8E88AF0E">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:57:39 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_DIM_EVENTO_FATO_RESULTADO_LUTA" id="6E99B7C5-EB6D-71CB-C531-F76E5B9730A4">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:57:39 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_DIM_LUTADOR_FATO_RESULTADO_LUTA" id="9487E3F9-0AA4-E5D3-8792-C2F0CE9F7AA9">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:57:39 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_DIM_METODO_FATO_RESULTADO_LUTA" id="DC6B8D8E-D5C0-E5CC-6085-C56CA9B53F71">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:57:39 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_DIM_LUTA_FATO_RESULTADO_LUTA" id="E1E333ED-0679-6B6C-3A39-7967D87D3D51">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:57:39 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_FATO_RESULTADO_LUTA" id="C13C78D2-4847-EC8E-BDC4-A4C7841E6045">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:57:39 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="DIM_METODO" directorySegmentName="seg_0" id="A2AF9E0C-E87E-03C8-971F-9EA8E4E9CB99">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:57:39 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<schemaObject>746137AE-BCE4-01CD-95D2-BF08DA50181F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<user>EA880D7E-1F25-90CD-42F5-D350E60DD535</user>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<storeAs>CLOB</storeAs>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NM_METODO" id="2F29101A-CBEE-09A7-94E4-A21070724858">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:57:39 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SK_METODO" id="509EF10E-21E8-249B-7620-49BE58884D20">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:57:39 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_DIM_METODO" id="62C1E590-0C34-5FEB-BD02-E28B745A5844">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:57:39 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

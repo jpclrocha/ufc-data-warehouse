@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="DIM_LUTADOR" directorySegmentName="seg_0" id="452BF08A-252A-BCC2-CCB1-45FC0559828C">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:57:39 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<schemaObject>746137AE-BCE4-01CD-95D2-BF08DA50181F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<user>EA880D7E-1F25-90CD-42F5-D350E60DD535</user>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<storeAs>CLOB</storeAs>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NM_LUTADOR" id="5CA4FF40-136F-9EA3-CA24-2DD3B62AC528">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:57:39 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SK_LUTADOR" id="6A4C93B0-D865-12EF-E6AA-56A5EE90907E">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:57:39 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REACH_LUTADOR" id="D63B096C-8109-1CEF-0485-12D262C70BA3">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:57:39 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_DIM_LUTADOR" id="F74B2ABE-C346-1784-D16D-FC972B0E4FC0">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:57:39 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC" id="C8597F5D-FE0D-4845-60E8-1CC00B9537BF" version="3.5">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 22:18:05 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C8597F5D-FE0D-4845-60E8-1CC00B9537BF</designId>
+</OSDM_Design>

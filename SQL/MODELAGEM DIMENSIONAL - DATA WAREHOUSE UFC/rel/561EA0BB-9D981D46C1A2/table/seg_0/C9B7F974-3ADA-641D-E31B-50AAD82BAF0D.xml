@@ -1,0 +1,212 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C9B7F974-3ADA-641D-E31B-50AAD82BAF0D" schemaObject="746137AE-BCE4-01CD-95D2-BF08DA50181F" name="FATO_ROUND_LUTA">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:02:56 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_LUTADOR" id="272EFA70-DC5A-9C9B-85B7-C8618CED7CB9">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:03:31 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78FC36F4-BA64-86A1-059A-5933FC13A350" referredColumn="6A4C93B0-D865-12EF-E6AA-56A5EE90907E"/>
+</associations>
+</Column>
+<Column name="SK_EVENTO" id="A7A8CFD7-D3D9-3677-1454-AA322C4E95AC">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:03:31 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3DAF360A-922C-DF21-F6C0-3D2DF0513038" referredColumn="83C94B54-C813-6C7B-E4F4-F899527BC011"/>
+</associations>
+</Column>
+<Column name="SK_LUTA" id="9D9094EA-7A7D-711F-6C3F-4193B157F890">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:03:31 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A6576C6-99A4-6EA2-4B26-7AB3CF5AF779" referredColumn="44860D47-087B-E8C2-AB23-DB1BBE9C5C93"/>
+</associations>
+</Column>
+<Column name="SK_TEMPO" id="3207AD7D-C27B-F40D-D2AE-232101DD05F8">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:03:41 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8852B665-9D12-08D6-B168-528DA666A7E6" referredColumn="FF2F5406-1672-DEDF-845D-8F26977A5AAA"/>
+</associations>
+</Column>
+<Column name="PCT_GOLPES_SIG" id="1F5EC863-CC8B-CF4A-10A2-1AE74B57BB33">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:05:18 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GOLPES_SIG_ACERTADOS" id="12AE6DCB-3197-6634-4642-DA10B040FFBB">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:05:39 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GOLPES_SIG_TENTADOS" id="DDA191F9-12C6-91C7-8E99-A44950620656">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:05:44 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GOLPES_TOTAIS_ACERTADOS" id="81A2C855-4CDF-F0F2-92E2-EA519A5797C8">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:05:49 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GOLPES_TOTAIS_TENTADOS" id="B0ACC114-9C2E-B507-FD27-32DD35F967FC">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:05:54 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PCT_TAKEDOWNS" id="E7311451-FC09-187E-EA2F-8F8A33046977">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:05:59 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TAKEDOWNS_ACERTADOS" id="8AEB1173-025D-626F-D4DE-F56510F86067">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:06:03 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TAKEDOWNS_TENTADOS" id="E4EF39DA-62E6-09FD-69CC-E019F3421877">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:06:08 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="322CD569-1C4F-3460-1454-1BFC80424C92" name="PK_FATO_ROUND_LUTA">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:07:14 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="272EFA70-DC5A-9C9B-85B7-C8618CED7CB9"/>
+<colUsage columnID="A7A8CFD7-D3D9-3677-1454-AA322C4E95AC"/>
+<colUsage columnID="9D9094EA-7A7D-711F-6C3F-4193B157F890"/>
+<colUsage columnID="3207AD7D-C27B-F40D-D2AE-232101DD05F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0AB54627-10D5-A1CE-8584-5EE627F29B96" name="FK_DIM_EVENTO_FATO_ROUND_LUTA">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:08:29 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7A8CFD7-D3D9-3677-1454-AA322C4E95AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D03F0A7D-C620-ABC3-0C6F-60D03AD457E8" name="FK_DIM_LUTA_FATO_ROUND_LUTA">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:08:50 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D9094EA-7A7D-711F-6C3F-4193B157F890"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C45A926E-097C-1030-3190-6185B460A023" name="FK_DIM_LUTADOR_FATO_ROUND_LUTA">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:09:32 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="272EFA70-DC5A-9C9B-85B7-C8618CED7CB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE7EBC33-9741-266D-3461-F8A20F39E345" name="FK_DIM_TEMPO_FATO_ROUND_LUTA">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 23:09:52 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3207AD7D-C27B-F40D-D2AE-232101DD05F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

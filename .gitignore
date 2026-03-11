@@ -8,3 +8,8 @@ DATA/unused
 .xlsx
 DOCS/Análise Exploratória - MODELO.docx
 DOCS/resumo.txt
+
+**/*.localz
+**/*.local
+**/*.git
+**/*.DS_Store

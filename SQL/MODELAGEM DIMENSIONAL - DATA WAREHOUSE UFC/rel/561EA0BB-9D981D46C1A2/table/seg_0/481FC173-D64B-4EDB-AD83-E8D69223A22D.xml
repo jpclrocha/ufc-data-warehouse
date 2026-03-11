@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="481FC173-D64B-4EDB-AD83-E8D69223A22D" schemaObject="746137AE-BCE4-01CD-95D2-BF08DA50181F" name="DIM_LUTA">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 22:54:44 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_LUTA" id="44860D47-087B-E8C2-AB23-DB1BBE9C5C93">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 22:55:03 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_PK_DIM_LUTA</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_PK_DIM_LUTA</autoIncrementTriggerName>
+</Column>
+<Column name="NM_LUTA" id="6D345949-57A9-D30C-090D-1A3472EF7381">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 22:55:33 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAT_PESO" id="79EF3DE0-8703-D945-0071-459249FD2122">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 22:55:46 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E55D8D6F-68A2-F7F5-E11D-FE756823AA36" name="PK_DIM_LUTA">
+<createdBy>jope</createdBy>
+<createdTime>2026-03-10 22:55:03 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44860D47-087B-E8C2-AB23-DB1BBE9C5C93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

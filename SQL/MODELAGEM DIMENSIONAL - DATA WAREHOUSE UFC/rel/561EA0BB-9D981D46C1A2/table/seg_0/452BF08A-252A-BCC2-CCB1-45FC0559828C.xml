@@ -20,24 +20,24 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <autoIncrementSequenceName>SEQ_PK_DIM_LUTADOR</autoIncrementSequenceName>
 <autoIncrementTriggerName>TRG_PK_DIM_LUTADOR</autoIncrementTriggerName>
+<notNullConstraintName>NN_SK_LUTADOR_DIM_LUTADOR</notNullConstraintName>
 </Column>
 <Column name="NM_LUTADOR" id="5CA4FF40-136F-9EA3-CA24-2DD3B62AC528">
 <createdBy>jope</createdBy>
 <createdTime>2026-03-10 22:44:13 UTC</createdTime>
 <ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100 CHAR</dataTypeSize>
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_NM_LUTADOR_DIM_LUTADOR</notNullConstraintName>
 </Column>
 <Column name="REACH_LUTADOR" id="D63B096C-8109-1CEF-0485-12D262C70BA3">
 <createdBy>jope</createdBy>
 <createdTime>2026-03-10 22:44:43 UTC</createdTime>
 <ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -45,6 +45,7 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,10,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_REACH_LUTADOR_DIM_LUTADOR</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -57,6 +58,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="6A4C93B0-D865-12EF-E6AA-56A5EE90907E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07BEE121-A771-A4EB-6D94-D22B50F9006D" name="AK_NM_LUTADOR_DIM_LUTADOR">
+<createdBy>jope</createdBy>
+<createdTime>2026-04-13 23:43:12 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CA4FF40-136F-9EA3-CA24-2DD3B62AC528"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

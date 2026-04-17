@@ -6,6 +6,7 @@
 <schemaObject>746137AE-BCE4-01CD-95D2-BF08DA50181F</schemaObject>
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
+<tableSpace>83D3BD0B-37EA-E698-871E-2A2C2C110C33</tableSpace>
 <temporaryChanged>false</temporaryChanged>
 <user>EA880D7E-1F25-90CD-42F5-D350E60DD535</user>
 <accessDriverType>oracle_loader</accessDriverType>
@@ -36,4 +37,12 @@
 <indexSort>SORTED</indexSort>
 </PrimaryKey>
 </primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="AK_NM_LUTADOR_DIM_LUTADOR" id="07BEE121-A771-A4EB-6D94-D22B50F9006D">
+<createdBy>jope</createdBy>
+<createdTime>2026-04-15 19:06:00 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
 </TableProxyOraclev20c>

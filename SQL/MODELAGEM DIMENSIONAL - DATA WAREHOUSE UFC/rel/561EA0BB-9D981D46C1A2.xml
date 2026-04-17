@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="561EA0BB-6040-4223-3AA6-9D981D46C1A2" mainViewID="953223C0-A3D7-A33C-62A3-C9E64B858CA9">
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="STAR SCHEMA" id="561EA0BB-6040-4223-3AA6-9D981D46C1A2" mainViewID="953223C0-A3D7-A33C-62A3-C9E64B858CA9">
 <createdBy>jope</createdBy>
 <createdTime>2026-03-10 22:18:14 UTC</createdTime>
 <ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
+<shouldBeOpen>true</shouldBeOpen>
 <selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
 </relationalModel>

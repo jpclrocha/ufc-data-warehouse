@@ -6,6 +6,7 @@
 <schemaObject>746137AE-BCE4-01CD-95D2-BF08DA50181F</schemaObject>
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
+<tableSpace>83D3BD0B-37EA-E698-871E-2A2C2C110C33</tableSpace>
 <temporaryChanged>false</temporaryChanged>
 <user>EA880D7E-1F25-90CD-42F5-D350E60DD535</user>
 <accessDriverType>oracle_loader</accessDriverType>
@@ -27,9 +28,9 @@
 <createdTime>2026-03-10 23:57:39 UTC</createdTime>
 <ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="SK_TEMPO" id="3207AD7D-C27B-F40D-D2AE-232101DD05F8">
+<ColumnProxy name="SK_CALENDARIO" id="4093AB68-E1C6-EF94-EC24-1225A2A08F33">
 <createdBy>jope</createdBy>
-<createdTime>2026-03-10 23:57:39 UTC</createdTime>
+<createdTime>2026-04-15 19:06:00 UTC</createdTime>
 <ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="GOLPES_TOTAIS_ACERTADOS" id="81A2C855-4CDF-F0F2-92E2-EA519A5797C8">
@@ -37,7 +38,7 @@
 <createdTime>2026-03-10 23:57:39 UTC</createdTime>
 <ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="TAKEDOWNS_ACERTADOS" id="8AEB1173-025D-626F-D4DE-F56510F86067">
+<ColumnProxy name="TD_ACERTADOS" id="8AEB1173-025D-626F-D4DE-F56510F86067">
 <createdBy>jope</createdBy>
 <createdTime>2026-03-10 23:57:39 UTC</createdTime>
 <ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
@@ -52,6 +53,11 @@
 <createdTime>2026-03-10 23:57:39 UTC</createdTime>
 <ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
 </ColumnProxy>
+<ColumnProxy name="NUM_ROUND" id="ADCB92FE-3C41-045E-9E14-B5C5CB12DA74">
+<createdBy>jope</createdBy>
+<createdTime>2026-04-15 19:06:00 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="GOLPES_TOTAIS_TENTADOS" id="B0ACC114-9C2E-B507-FD27-32DD35F967FC">
 <createdBy>jope</createdBy>
 <createdTime>2026-03-10 23:57:39 UTC</createdTime>
@@ -62,12 +68,12 @@
 <createdTime>2026-03-10 23:57:39 UTC</createdTime>
 <ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="TAKEDOWNS_TENTADOS" id="E4EF39DA-62E6-09FD-69CC-E019F3421877">
+<ColumnProxy name="TD_TENTADOS" id="E4EF39DA-62E6-09FD-69CC-E019F3421877">
 <createdBy>jope</createdBy>
 <createdTime>2026-03-10 23:57:39 UTC</createdTime>
 <ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="PCT_TAKEDOWNS" id="E7311451-FC09-187E-EA2F-8F8A33046977">
+<ColumnProxy name="PCT_TAKEDOWN" id="E7311451-FC09-187E-EA2F-8F8A33046977">
 <createdBy>jope</createdBy>
 <createdTime>2026-03-10 23:57:39 UTC</createdTime>
 <ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
@@ -79,9 +85,9 @@
 <createdTime>2026-03-10 23:57:39 UTC</createdTime>
 <ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
 </ForeignKey>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_DIM_TEMPO_FATO_ROUND_LUTA" id="BE7EBC33-9741-266D-3461-F8A20F39E345">
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_DIM_CALENDARIO_FATO_ROUND_LUTA" id="AF8293BA-4682-B4B2-BD0F-C14CA2AB3426">
 <createdBy>jope</createdBy>
-<createdTime>2026-03-10 23:57:39 UTC</createdTime>
+<createdTime>2026-04-15 19:06:00 UTC</createdTime>
 <ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
 </ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_DIM_LUTADOR_FATO_ROUND_LUTA" id="C45A926E-097C-1030-3190-6185B460A023">

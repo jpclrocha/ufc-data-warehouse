@@ -6,6 +6,7 @@
 <schemaObject>746137AE-BCE4-01CD-95D2-BF08DA50181F</schemaObject>
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
+<tableSpace>83D3BD0B-37EA-E698-871E-2A2C2C110C33</tableSpace>
 <temporaryChanged>false</temporaryChanged>
 <user>EA880D7E-1F25-90CD-42F5-D350E60DD535</user>
 <accessDriverType>oracle_loader</accessDriverType>
@@ -17,14 +18,29 @@
 <createdTime>2026-03-10 23:57:39 UTC</createdTime>
 <ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
 </ColumnProxy>
+<ColumnProxy name="NM_GENERO" id="50A6784B-3939-F2CD-308A-BE7C218AFF62">
+<createdBy>jope</createdBy>
+<createdTime>2026-04-16 13:27:58 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NM_CATEGORIA_PESO" id="5B14B0AA-C7B3-0243-9325-4B7922ABBA45">
+<createdBy>jope</createdBy>
+<createdTime>2026-04-15 19:06:00 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="NM_LUTA" id="6D345949-57A9-D30C-090D-1A3472EF7381">
 <createdBy>jope</createdBy>
 <createdTime>2026-03-10 23:57:39 UTC</createdTime>
 <ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="CAT_PESO" id="79EF3DE0-8703-D945-0071-459249FD2122">
+<ColumnProxy name="NM_TP_LUTA" id="83D94A1A-8BEA-D0B2-24EE-E4B054A3573F">
 <createdBy>jope</createdBy>
-<createdTime>2026-03-10 23:57:39 UTC</createdTime>
+<createdTime>2026-04-16 13:28:51 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NM_CATEGORIA_COMPLETA" id="90C5F218-550B-F5CD-ABB2-A7F036453D1F">
+<createdBy>jope</createdBy>
+<createdTime>2026-04-15 19:06:00 UTC</createdTime>
 <ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
@@ -36,4 +52,12 @@
 <indexSort>SORTED</indexSort>
 </PrimaryKey>
 </primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="AK_NM_LUTA_DIM_LUTA" id="FEBB7FB0-2299-C734-5066-87F01AF219AF">
+<createdBy>jope</createdBy>
+<createdTime>2026-04-16 13:47:00 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
 </TableProxyOraclev20c>

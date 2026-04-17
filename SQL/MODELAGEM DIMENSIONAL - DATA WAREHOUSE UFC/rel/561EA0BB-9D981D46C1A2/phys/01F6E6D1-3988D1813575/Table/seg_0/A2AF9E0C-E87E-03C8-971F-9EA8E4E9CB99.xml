@@ -6,6 +6,7 @@
 <schemaObject>746137AE-BCE4-01CD-95D2-BF08DA50181F</schemaObject>
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
+<tableSpace>83D3BD0B-37EA-E698-871E-2A2C2C110C33</tableSpace>
 <temporaryChanged>false</temporaryChanged>
 <user>EA880D7E-1F25-90CD-42F5-D350E60DD535</user>
 <accessDriverType>oracle_loader</accessDriverType>
@@ -22,6 +23,11 @@
 <createdTime>2026-03-10 23:57:39 UTC</createdTime>
 <ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
 </ColumnProxy>
+<ColumnProxy name="NM_TIPO_METODO" id="8A4372D8-2553-FE3D-D7D7-E59AAE396D44">
+<createdBy>jope</createdBy>
+<createdTime>2026-04-15 19:06:00 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+</ColumnProxy>
 </columnProxies>
 <primaryKeys>
 <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_DIM_METODO" id="62C1E590-0C34-5FEB-BD02-E28B745A5844">
@@ -31,4 +37,12 @@
 <indexSort>SORTED</indexSort>
 </PrimaryKey>
 </primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="AK_DIM_METODO_NM_METODO" id="7BA38BAD-4E94-A12C-F157-EAC9149052CE">
+<createdBy>jope</createdBy>
+<createdTime>2026-04-16 12:37:06 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
 </TableProxyOraclev20c>

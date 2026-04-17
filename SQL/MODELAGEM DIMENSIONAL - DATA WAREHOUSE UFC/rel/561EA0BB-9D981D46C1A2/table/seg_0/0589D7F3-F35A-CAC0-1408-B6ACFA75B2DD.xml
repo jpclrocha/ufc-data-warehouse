@@ -20,31 +20,43 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <autoIncrementSequenceName>SEQ_PK_DIM_EVENTO</autoIncrementSequenceName>
 <autoIncrementTriggerName>TRG_PK_DIM_EVENTO</autoIncrementTriggerName>
+<notNullConstraintName>NN_SK_EVENTO_DIM_EVENTO</notNullConstraintName>
 </Column>
 <Column name="NM_EVENTO" id="2722FFE3-D7D5-C008-82D2-B7791F5FE9EB">
 <createdBy>jope</createdBy>
 <createdTime>2026-03-10 22:46:41 UTC</createdTime>
 <ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100 CHAR</dataTypeSize>
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_NM_EVENTO_DIM_EVENTO</notNullConstraintName>
 </Column>
-<Column name="DT_EVENTO" id="B881D2FC-70C6-ABBD-7332-A8BFD312D65D">
+<Column name="NM_CIDADE" id="320FBD8C-D990-FD9E-1A91-BBC54F818DA5">
 <createdBy>jope</createdBy>
-<createdTime>2026-03-10 22:46:47 UTC</createdTime>
+<createdTime>2026-04-08 18:55:55 UTC</createdTime>
 <ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<autoIncrementSequenceName>SEQ_PK_DIM_EVENTO</autoIncrementSequenceName>
-<autoIncrementTriggerName>TRG_PK_DIM_EVENTO</autoIncrementTriggerName>
+<notNullConstraintName>NN_NM_CIDADE_DIM_EVENTO</notNullConstraintName>
+</Column>
+<Column name="NM_PAIS" id="5978D8FE-0C5A-7DD4-7F43-9495FEA37647">
+<createdBy>jope</createdBy>
+<createdTime>2026-04-08 18:55:55 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_NM_PAIS_DIM_EVENTO</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

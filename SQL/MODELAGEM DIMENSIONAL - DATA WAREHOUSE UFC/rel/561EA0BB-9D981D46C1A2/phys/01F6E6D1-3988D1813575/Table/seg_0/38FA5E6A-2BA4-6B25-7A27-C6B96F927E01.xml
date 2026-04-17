@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="DIM_EVENTO" directorySegmentName="seg_0" id="0589D7F3-F35A-CAC0-1408-B6ACFA75B2DD">
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="DIM_CALENDARIO" directorySegmentName="seg_0" id="38FA5E6A-2BA4-6B25-7A27-C6B96F927E01">
 <createdBy>jope</createdBy>
-<createdTime>2026-03-10 23:57:39 UTC</createdTime>
+<createdTime>2026-04-08 18:51:37 UTC</createdTime>
 <ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
 <schemaObject>746137AE-BCE4-01CD-95D2-BF08DA50181F</schemaObject>
 <logging>YES</logging>
@@ -13,31 +13,36 @@
 <rejectLimit></rejectLimit>
 <storeAs>CLOB</storeAs>
 <columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
-<ColumnProxy name="NM_EVENTO" id="2722FFE3-D7D5-C008-82D2-B7791F5FE9EB">
+<ColumnProxy name="NR_TRIMESTRE" id="140D062C-E2B3-E722-D4E7-5F43E7B145A7">
 <createdBy>jope</createdBy>
-<createdTime>2026-03-10 23:57:39 UTC</createdTime>
+<createdTime>2026-04-08 18:52:47 UTC</createdTime>
 <ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="NM_CIDADE" id="320FBD8C-D990-FD9E-1A91-BBC54F818DA5">
+<ColumnProxy name="NR_MES" id="5F5E13F5-0E1F-D95D-6584-2116DC2E18ED">
 <createdBy>jope</createdBy>
-<createdTime>2026-04-15 19:06:00 UTC</createdTime>
+<createdTime>2026-04-08 18:52:47 UTC</createdTime>
 <ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="NM_PAIS" id="5978D8FE-0C5A-7DD4-7F43-9495FEA37647">
+<ColumnProxy name="NR_ANO" id="6EEEFC67-3C9E-E525-DF84-7AC74E055809">
 <createdBy>jope</createdBy>
-<createdTime>2026-04-15 19:06:00 UTC</createdTime>
+<createdTime>2026-04-08 18:52:47 UTC</createdTime>
 <ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="SK_EVENTO" id="83C94B54-C813-6C7B-E4F4-F899527BC011">
+<ColumnProxy name="DT_COMPLETA" id="D43F3C49-F16E-60B0-C2E0-B525B605D63B">
 <createdBy>jope</createdBy>
-<createdTime>2026-03-10 23:57:39 UTC</createdTime>
+<createdTime>2026-04-08 18:52:47 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SK_CALENDARIO" id="D8889513-9F4B-15FE-096C-F077A88113F0">
+<createdBy>jope</createdBy>
+<createdTime>2026-04-08 18:51:57 UTC</createdTime>
 <ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
 <primaryKeys>
-<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_DIM_EVENTO" id="B2B5366F-7CFB-7A0D-49D3-B52F709F7E54">
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_DIM_CALENDARIO" id="3CF239A1-3F91-7FB5-FC91-8227E1379B71">
 <createdBy>jope</createdBy>
-<createdTime>2026-03-10 23:57:39 UTC</createdTime>
+<createdTime>2026-04-08 18:53:01 UTC</createdTime>
 <ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
 <indexSort>SORTED</indexSort>
 </PrimaryKey>

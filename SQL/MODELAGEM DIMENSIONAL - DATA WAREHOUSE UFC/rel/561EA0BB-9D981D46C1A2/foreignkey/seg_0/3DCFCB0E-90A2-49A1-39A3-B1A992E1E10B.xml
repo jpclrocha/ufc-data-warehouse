@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3DCFCB0E-90A2-49A1-39A3-B1A992E1E10B" containerWithKeyObject="481FC173-D64B-4EDB-AD83-E8D69223A22D" localFKIndex="EE0BD137-C42C-3E56-E932-2E6C023E9417" name="FK_DIM_EVENTO_DIM_LUTA">
+<createdBy>jope</createdBy>
+<createdTime>2026-04-08 18:56:42 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<referredTableLongName>SCH_UFC_001.DIM_EVENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0589D7F3-F35A-CAC0-1408-B6ACFA75B2DD</referredTableID>
+<keyObject>B2B5366F-7CFB-7A0D-49D3-B52F709F7E54</keyObject>
+<referredKeyID>B2B5366F-7CFB-7A0D-49D3-B52F709F7E54</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SK_EVENTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

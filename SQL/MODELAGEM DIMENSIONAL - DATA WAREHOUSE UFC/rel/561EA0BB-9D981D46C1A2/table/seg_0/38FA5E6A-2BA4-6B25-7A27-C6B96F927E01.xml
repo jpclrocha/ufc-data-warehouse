@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="38FA5E6A-2BA4-6B25-7A27-C6B96F927E01" schemaObject="746137AE-BCE4-01CD-95D2-BF08DA50181F" name="DIM_CALENDARIO">
+<createdBy>jope</createdBy>
+<createdTime>2026-04-08 18:51:37 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_CALENDARIO" id="D8889513-9F4B-15FE-096C-F077A88113F0">
+<createdBy>jope</createdBy>
+<createdTime>2026-04-08 18:51:57 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_PK_DIM_CALENDARIO</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_PK_DIM_CALENDARIO</autoIncrementTriggerName>
+<notNullConstraintName>NN_SK_CALENDARIO_DIM_CALENDARIO</notNullConstraintName>
+</Column>
+<Column name="DT_COMPLETA" id="D43F3C49-F16E-60B0-C2E0-B525B605D63B">
+<createdBy>jope</createdBy>
+<createdTime>2026-04-08 18:52:47 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_DT_COMPLETA_DIM_CALENDARIO</notNullConstraintName>
+</Column>
+<Column name="NR_ANO" id="6EEEFC67-3C9E-E525-DF84-7AC74E055809">
+<createdBy>jope</createdBy>
+<createdTime>2026-04-08 18:52:47 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_NR_ANO_DIM_CALENDARIO</notNullConstraintName>
+</Column>
+<Column name="NR_MES" id="5F5E13F5-0E1F-D95D-6584-2116DC2E18ED">
+<createdBy>jope</createdBy>
+<createdTime>2026-04-08 18:52:47 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_NR_MES_DIM_CALENDARIO</notNullConstraintName>
+</Column>
+<Column name="NR_TRIMESTRE" id="140D062C-E2B3-E722-D4E7-5F43E7B145A7">
+<createdBy>jope</createdBy>
+<createdTime>2026-04-08 18:52:47 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_NR_TRIMESTRE_DIM_CALENDARIO</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3CF239A1-3F91-7FB5-FC91-8227E1379B71" name="PK_DIM_CALENDARIO">
+<createdBy>jope</createdBy>
+<createdTime>2026-04-08 18:53:01 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8889513-9F4B-15FE-096C-F077A88113F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

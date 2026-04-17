@@ -20,30 +20,67 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <autoIncrementSequenceName>SEQ_PK_DIM_LUTA</autoIncrementSequenceName>
 <autoIncrementTriggerName>TRG_PK_DIM_LUTA</autoIncrementTriggerName>
+<notNullConstraintName>NN_SK_LUTA_DIM_LUTA</notNullConstraintName>
 </Column>
 <Column name="NM_LUTA" id="6D345949-57A9-D30C-090D-1A3472EF7381">
 <createdBy>jope</createdBy>
 <createdTime>2026-03-10 22:55:33 UTC</createdTime>
 <ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100 CHAR</dataTypeSize>
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_NM_LUTA_DIM_LUTA</notNullConstraintName>
 </Column>
-<Column name="CAT_PESO" id="79EF3DE0-8703-D945-0071-459249FD2122">
+<Column name="NM_TP_LUTA" id="83D94A1A-8BEA-D0B2-24EE-E4B054A3573F">
 <createdBy>jope</createdBy>
-<createdTime>2026-03-10 22:55:46 UTC</createdTime>
+<createdTime>2026-04-16 13:28:51 UTC</createdTime>
 <ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100 CHAR</dataTypeSize>
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_NM_TP_LUTA_DIM_LUTA</notNullConstraintName>
+</Column>
+<Column name="NM_CATEGORIA_COMPLETA" id="90C5F218-550B-F5CD-ABB2-A7F036453D1F">
+<createdBy>jope</createdBy>
+<createdTime>2026-04-08 19:02:16 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_NM_CATEGORIA_COMPLETA_DIM_LUTA</notNullConstraintName>
+</Column>
+<Column name="NM_CATEGORIA_PESO" id="5B14B0AA-C7B3-0243-9325-4B7922ABBA45">
+<createdBy>jope</createdBy>
+<createdTime>2026-04-13 23:47:54 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_NM_CATEGORIA_PESO_DIM_LUTA</notNullConstraintName>
+</Column>
+<Column name="NM_GENERO" id="50A6784B-3939-F2CD-308A-BE7C218AFF62">
+<createdBy>jope</createdBy>
+<createdTime>2026-04-16 13:27:58 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_NM_GENERO_DIM_LUTA</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -56,6 +93,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="44860D47-087B-E8C2-AB23-DB1BBE9C5C93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FEBB7FB0-2299-C734-5066-87F01AF219AF" name="AK_NM_LUTA_DIM_LUTA">
+<createdBy>jope</createdBy>
+<createdTime>2026-04-16 13:47:00 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D345949-57A9-D30C-090D-1A3472EF7381"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

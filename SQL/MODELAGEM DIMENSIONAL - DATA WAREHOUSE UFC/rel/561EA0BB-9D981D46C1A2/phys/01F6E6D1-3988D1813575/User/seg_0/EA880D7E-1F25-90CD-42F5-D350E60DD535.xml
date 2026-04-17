@@ -3,5 +3,21 @@
 <createdBy>jope</createdBy>
 <createdTime>2026-03-10 23:58:11 UTC</createdTime>
 <ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
-<identifier>1505371E9559E7C34954D3D78B8294B779CD08115AFE1D104EE82386B2EA92F0E5</identifier>
+<defTableSpace>83D3BD0B-37EA-E698-871E-2A2C2C110C33</defTableSpace>
+<identifier>15FC59C961C7CED8335B54DEC3C6BB692240054EEB4708E0C23EC234A9BE5603B5</identifier>
+<privileges>CONNECT, CREATE VIEW, RESOURCE</privileges>
+<quotaItems>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem_1" id="7362DB05-98F9-1D5E-828D-BF8289A2D65D">
+<createdBy>jope</createdBy>
+<createdTime>2026-04-15 19:13:29 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<tableSpace>83D3BD0B-37EA-E698-871E-2A2C2C110C33</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem_1" id="FA40B9AE-C335-FD33-902E-2B64E1A87A64">
+<createdBy>jope</createdBy>
+<createdTime>2026-04-15 19:13:35 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<tableSpace>83D3BD0B-37EA-E698-871E-2A2C2C110C33</tableSpace>
+</QuotaItem>
+</quotaItems>
 </UserOraclev10g>

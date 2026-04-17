@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA56C967-01D8-8959-788A-0281BD75D216" schemaObject="746137AE-BCE4-01CD-95D2-BF08DA50181F" name="DIM_CATEGORIA_PESO">
+<createdBy>jope</createdBy>
+<createdTime>2026-04-08 18:57:59 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_CAT_PESO" id="4A8B4D57-07D9-F8C0-F8B8-05315084B31D">
+<createdBy>jope</createdBy>
+<createdTime>2026-04-08 18:58:27 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_PK_DIM_CAT_PESO</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_PK_DIM_CAT_PESO</autoIncrementTriggerName>
+</Column>
+<Column name="NM_CATEGORIA" id="976F003A-1957-CD3B-6BC6-ED9F16506376">
+<createdBy>jope</createdBy>
+<createdTime>2026-04-08 18:58:47 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9304ECCE-33AB-A258-F5C1-1A1AA9E0E7C3" name="PK_DIM_CATEGORIA_PESO">
+<createdBy>jope</createdBy>
+<createdTime>2026-04-08 19:01:32 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A8B4D57-07D9-F8C0-F8B8-05315084B31D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

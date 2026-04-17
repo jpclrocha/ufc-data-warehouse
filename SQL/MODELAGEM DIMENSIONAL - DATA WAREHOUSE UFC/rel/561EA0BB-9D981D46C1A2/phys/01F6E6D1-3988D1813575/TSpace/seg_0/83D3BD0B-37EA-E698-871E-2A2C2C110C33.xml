@@ -1,0 +1,26 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="TBS_UFC_DATA_001" directorySegmentName="seg_0" id="83D3BD0B-37EA-E698-871E-2A2C2C110C33">
+<createdBy>jope</createdBy>
+<createdTime>2026-04-15 18:57:57 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<dsInitialExtent>15</dsInitialExtent>
+<dsNextExtent>10</dsNextExtent>
+<emLocalSubtype>UNIFORM</emLocalSubtype>
+<emUniformSize>1</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+<segmentManagement>AUTO</segmentManagement>
+<fileType>SMALLFILE</fileType>
+<dataFiles>
+<DataFile class="oracle.dbtools.crest.model.design.storage.oracle.v10g.DataFileOraclev10g" name="DF_TBS_UFC_DATA_001" id="85515642-ED02-FF7D-8F12-A2566DF7995F">
+<createdBy>jope</createdBy>
+<createdTime>2026-04-15 19:01:02 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+<autoextend>ON</autoextend>
+<fileName>DF_TBS_UFC_DATA_001</fileName>
+<measureUnit>M</measureUnit>
+<nextBlockSize>10</nextBlockSize>
+<nextBlockSizeUnit>M</nextBlockSizeUnit>
+<size>15</size>
+</DataFile>
+</dataFiles>
+</TableSpaceOraclev10g>

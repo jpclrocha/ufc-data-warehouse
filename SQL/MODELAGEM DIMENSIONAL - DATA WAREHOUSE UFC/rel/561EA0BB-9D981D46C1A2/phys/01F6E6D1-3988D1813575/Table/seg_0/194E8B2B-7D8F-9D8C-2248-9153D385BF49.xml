@@ -6,6 +6,7 @@
 <schemaObject>746137AE-BCE4-01CD-95D2-BF08DA50181F</schemaObject>
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
+<tableSpace>83D3BD0B-37EA-E698-871E-2A2C2C110C33</tableSpace>
 <temporaryChanged>false</temporaryChanged>
 <user>EA880D7E-1F25-90CD-42F5-D350E60DD535</user>
 <accessDriverType>oracle_loader</accessDriverType>
@@ -35,6 +36,11 @@
 <ColumnProxy name="SK_LUTA" id="D0EC65D8-6A0B-89CF-495C-166A8E88AF0E">
 <createdBy>jope</createdBy>
 <createdTime>2026-03-10 23:57:39 UTC</createdTime>
+<ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NR_ROUND_FIM" id="DA63B51F-A069-DA78-CA3C-89EBA0CD401E">
+<createdBy>jope</createdBy>
+<createdTime>2026-04-15 19:06:00 UTC</createdTime>
 <ownerDesignName>MODELAGEM DIMENSIONAL - DATA WAREHOUSE UFC</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
